@@ -1,0 +1,41 @@
+The Large Hadron Collider at CERN is producing 600 million collisions every second. Only 1 in a million collisions is interesting. It requires a very fast programming language to analyze and filter this amount of data.
+Python is not such a language. Does it mean there is no place for Python in one of the largest scientific facilities in the world? Quite the contrary. The ease of use and a very low learning curve makes Python a perfect programming language for many physicists who wants to automate some tasks and don't have the computer science background.
+CERN does not only produce large amounts of data. The interesting bits of data have to be stored, analyzed, shared and published. Work of many physicists has to be synchronized. This is the area where Python flourishes – and CERN’s pursuit to create and use open source software resulted in many interesting projects that I would like to present in this poster.
+To facilitate the analysis of data, ROOT framework [link] was created. It serves the community of scientists very well since more than 20 years, but make it more usable for people without C++ background, a PyROOT [link] was born – a Python extension module that allows users to interact with ROOT from Python interpreter. It combines the ease of use of Python with the powerful capabilities of big data processing, statistical analysis, visualisation and storage or ROOT.
+For storing your research, a digital library framework called Invenio was created [link]. If can be used to easily build your own fully customized digital library, institutional repository, multimedia archive, or research data repository on the web. A great examples of websites build using Invenio are: https://zenodo.org/, https://cds.cern.ch/ or http://inspirehep.net/.
+To easily organize even complex events, http://indico-software.org/ was created. Comes with a room booking module and can be easily integrated with various collaborative tools.
+
+
+Cool projects:
+CDS, Open Data, Inspire - digital libraries of different sort
+Zenodo - preserving stuff
+Indico (http://indico-software.org/) managing conferences
+PyROOT (https://root.cern.ch/pyroot) ROOT bindings for Python
+
+
+Other cools projects:
+- Open hardware license (http://www.ohwr.org/projects/cernohl/wiki)
+- Scientific Linux CERN (http://linux.web.cern.ch/linux/scientific6/)
+- The PORT hackaton (http://theport.ch/)
+
+
+Other links:
+https://www.quora.com/Why-does-CERN-use-ROOT
+
+
+Plan:
+1. grab attention - LHC has a lot of data to process, so python is not fast enough to use it there
+2. python keeps getting more popular at CERN
+3. CERN is pushing for open source, so there are more Python projects emerging
+4. Starting from very scientific community, there is PyROOT
+5. But there are also tools useful in everyday life - digital repository (Invenio)
+6. Another interesting tool - Indico, for planning the meetings
+
+Maybe (if enough space)
+7.  Other interesting, non-python projects but open source and beneficial for the community: open hardware license, scientific linux, PORT hackaton
+
+
+questions:
+when was pyroot created
+how many people use it
+do people outside of cern contribute to it
